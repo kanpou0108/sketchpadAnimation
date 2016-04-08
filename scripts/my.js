@@ -2,16 +2,17 @@ $(document).ready(function() {
 
     var sketchpad = new Sketchpad({
         element: '#sketchpad',
-        width: 400,
-        height: 400,
-        color: '#ff0000',
-        penSize: 10
+        width: 450,
+        height: 450,
+        color: '#000000',
+        penSize: 8
     });
-
-    $('#color-picker').val('#ff0000');
+    
+    // 初期表示を上記インスタンス作成時に設定した値にするために必要
+    $('#color-picker').val('#000000');
     $('#color-picker').change(color);
 
-    $('#size-picker').val(10);
+    $('#size-picker').val(8);
     $('#size-picker').change(size);
     
     $('#speed-picker').val(10);
