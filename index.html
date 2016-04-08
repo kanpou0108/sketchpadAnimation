@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SketchPad Animation</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/my.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <script src="scripts/jquery-1.12.3.js"></script>
+    <script src="scripts/sketchpad.js"></script>
+    <script src="scripts/my.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>SketchPad Animation</h1>
+    </header>
+
+    <div style="text-align: center">
+        <canvas class="sketchpad" id="sketchpad"></canvas>
+    </div>
+
+    <div class="pen-attributes" style="text-align: center">
+        <div class="pen-attributes">
+            color:
+            <input id="color-picker" type="color">
+        </div>
+        <div class="pen-attributes">
+            penSize:
+            <span id="size-picker-value">10</span>
+            <input id="size-picker" type="range" min="1" max="25" value="1" step="1">
+        </div>
+        <div class="pen-attributes">
+            speed[ms]:
+            <span id="speed-picker-value">10</span>
+            <input id="speed-picker" type="range" min="1" max="25" value="1" step="1">
+        </div>
+        <div class="pen-attributes">
+            Eraser：<input type="checkbox" id="eraser" value="eraser">
+        </div> 
+    </div>
+
+    <div class="control-area">
+        <ul>
+            <li id="undo"><i class="fa fa-undo"></i> undo</li>
+            <li id="redo"><i class="fa fa-repeat"></i> redo</li>
+            <li id="all-clear"><i class="fa fa-eraser"></i> all clear</li>
+        </ul>
+        <ul>
+            <li id="animate"><i class="fa fa-play"></i> animate</li>
+        </ul>
+        <ul>
+            <li id="animate-loop"><i class="fa fa-refresh"></i> animate loop</li>
+            <li id="cancel"><i class="fa fa-stop"></i> animate stop</li>
+            <li id="recover"><i class="fa fa-save"></i> recover</li>
+        </ul>
+        <ul>
+        </ul>
+        <ul>
+        </ul>
+    </div>
+
+    <div style="text-align: center">
+        <canvas class="sketchpad" id="other-sketchpad"></canvas>
+    </div>
+
+    <!-- <div id="gallary"></div> -->
+</body>
+
+</html>

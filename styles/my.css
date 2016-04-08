@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 32px;
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+footer {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+p {
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    height: 150px;
+}
+ul {
+    padding: 0;
+    border-top: 1px solid #000000;
+    display: table;
+    /* 定義 */
+    table-layout: fixed;
+    width: 100%;
+}
+li {
+    list-style-type: none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display: table-cell;
+    /* 定義 */
+    cursor: pointer;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+}
+li:hover {
+    background: #0066CC;
+    color: #fff;
+}
+h1 {
+    font-size: 32px;
+}
+.sketchpad {
+    background: #FFF;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#gallary {
+    position: fixed;
+    top: 5px;
+    right: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 130px;
+    height: 600px;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: #aaf;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#gallary>a {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+}
+.control-area{
+	margin: 20px 0px;
+}
+.pen-attributes {
+    font-size: 20px;
+}
