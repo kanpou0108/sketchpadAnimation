@@ -2,9 +2,15 @@
 
 ## これは何
 canvas内にお絵かきした絵をアニメーションとして再描画できます。  
-ループ再生も可能。  
-描画のスピード調整機能追加。  
-消しゴム機能追加。(再生時にアニメーションが消しゴムにならないバグあり)
+
+### 追加機能
+* ループ再生 
+* 描画スピードコントロール
+* 消しゴム機能
+
+
+## DEMO
+http://kanpou0108.github.io/sketchpadAnimation/
 
 ## 参考URL
 https://github.com/yiom/sketchpad
