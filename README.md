@@ -8,9 +8,5 @@ canvas内にお絵かきした絵をアニメーションとして再描画で�
 * 描画スピードコントロール
 * 消しゴム機能
 
-
 ## DEMO
 http://kanpou0108.github.io/sketchpadAnimation/
-
-## 参考URL
-https://github.com/yiom/sketchpad
